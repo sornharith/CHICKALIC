@@ -45,8 +45,8 @@ VALUES (1,"Monkey Shoulder","A blend of malts from William Grant's portfolio. Mo
 
 -- dumping data into Admin
 INSERT INTO Admin
-VALUES (2,"pataraporn.pen", "Pataraporn","Pnpargkul","pataraporn123",NULL),
-    (1,"benjaphol"),
-    (3,),
-    (4,),
-    (5,)
+VALUES (1,"benjaphol.kos","Banjaphol","Kositanon","bejapholly",NULL),
+    (2,"pataraporn.pen", "Pataraporn","Penpargkul","12345678",NULL),
+    (3,"harith.pha","Harith","Phalangpatanakij","12345678",NULL),
+    (4,"phanthira.pha","Phanthira","Phansen","12345678", NULL),
+    (5,"kittinat.uda","Kittinat","Udarwudhipong","12345678",NULL);
