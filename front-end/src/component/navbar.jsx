@@ -1,14 +1,21 @@
-export default function Navbar(){
-    return (
-    <nav className="nav">
-        <a href="/" className="logo">CHICKALIC</a>
-        <ul>
-            <li><a href="">About us</a></li>
-            <li><a href="">Menu</a></li>
-            <li><input type="search" name="search" id="searchbox" /></li>
-            <li><button class="login">Login</button></li>
-        </ul>
-    </nav>
+// import { Link } from "react-router-dom";
+import './navbar.css';
+
+const NavBar = () => {
+    return (  
+        <nav className ={"navbar"}>
+            <div className = {"container"}>
+                <a href="/" id='logo'>CHICKALIC</a>
+                <div className="navigate">
+                    <a href="/aboutus" id='aboutus'>About us</a>
+                    <a href="/Menu" id='menu'>Menu</a>
+                    <button>Search</button>
+                    <button>Login</button>
+                </div>
+            </div>
+        </nav>
     );
 }
+ 
+export default NavBar;  
 
