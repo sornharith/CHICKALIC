@@ -2,12 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ledger&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Ledger&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Kurale';
+    font-style: normal;
+    font-weight: 200;
+    src:  url('https://fonts.googleapis.com/css2?family=Kurale&family=Ledger&display=swap') format('kurale');
+  }
+  @font-face{
+    font-family: 'Katibeh';
+    font-style: normal;
+    font-weight: 200;
+    src:  url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap") format('Katibeh');
+  }
+  @font-face{
+    font-family: 'Ledger';
+    src: url('https://fonts.googleapis.com/css2?family=Ledger&display=swap') format('Ledger');
+  }
+  @font-face{
+    font-family: 'Cormorant Garamond';
+    src: url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap') format('Cormorant Garamond');
+  }
+  @font-face{
+    font-family: 'Libre';
+    src: url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap') format('Libre Bodoni')
+  }
+  @font-face{
+    font-family: "Caslon";
+    src: url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap') format('Libre+Caslon+Display')
+  }
+}
 
 *{
   box-sizing: border-box;
 }
 body {
   margin: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .nav{

@@ -1,11 +1,14 @@
-
-import Navbar from "./component/navbar";
 import Home from "./page/Home";
+import Menu from "./menu/menu";
 
 function App() {
   return (
     // <Navbar />
-    <Home />
+    <div className="app">
+      <Home />
+      {/* <Menu /> */}
+    </div>
+    
     // <h1 className='text-6xl'>CHICKALIC</h1>
     );
 }

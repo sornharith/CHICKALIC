@@ -1,0 +1,25 @@
+{
+    "products":[
+        {
+            "id" : 1,
+            "name": "Monkey Shoulder",
+            "category": "Whiskey"
+
+        },
+        {
+            "id" : 2,
+            "name": "KWV Classic Collection Merlot 2021",
+            "category": "Wine"
+        },
+        {
+            "id" : 3,
+            "name": "KWV Classic ",
+            "category": "Wine"
+        },
+        {
+            "id" : 4,
+            "name": "KWV 2021",
+            "category": "Wine"
+        }
+    ]
+}
