@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #54343B;
+}
+
+.div {
+    background-color: #ECE6E3;
+}
+
+#next {
+    background-color: #54343B;
+    align-items: center;
+    justify-content: center;
+}
+
+#next:hover {
+    background-color: #754e57;
+    text-decoration: none;
+}
+
+#text {
+    color: #54343B;
+}
+
+/* image 4 */
+#eye {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 911px;
+    top: 570px;
+    background: "../image/eye.png";
+}
