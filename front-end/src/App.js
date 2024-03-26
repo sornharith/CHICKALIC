@@ -1,11 +1,14 @@
 import Home from "./page/Home";
 import Menu from "./menu/menu";
+import AdminPage from "./page/AdminPage";
+
 
 function App() {
   return (
     // <Navbar />
     <div className="app">
-      <Home />
+      <AdminPage />
+      {/* <Home /> */}
       {/* <Menu /> */}
     </div>
     
